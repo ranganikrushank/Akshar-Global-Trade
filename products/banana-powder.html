@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Powder - Akshar Global Trade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#d4af37',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+            (function () {
+                emailjs.init("PKlVSHowQxmaO4Ah0"); // Replace with your EmailJS public key
+            })();
+    </script>
+</head>
+
+<body class="font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-lg z-50 transition-all duration-300 h-24" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <img src="/Images/Akshar Global Trade Logo -1.png" alt="Akshar Global Trade" class="h-24 w-56 -ml-8">
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-gray-700 hover:text-primary font-medium transition">Home</a>
+                    <a href="/index.html#about"
+                        class="text-gray-700 hover:text-primary font-medium transition">About</a>
+                    <a href="/index.html#products"
+                        class="text-gray-700 hover:text-primary font-medium transition">Products</a>
+                    <a href="/index.html#services"
+                        class="text-gray-700 hover:text-primary font-medium transition">Services</a>
+                    <a href="/index.html#why-us" class="text-gray-700 hover:text-primary font-medium transition">Why
+                        Us</a>
+                    <a href="/index.html#contact"
+                        class="bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition">Contact
+                        Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="/"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Home</a>
+                <a href="/index.html#about"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">About</a>
+                <a href="/index.html#products"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Products</a>
+                <a href="/index.html#services"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Services</a>
+                <a href="/index.html#contact" class="block px-3 py-2 text-primary font-semibold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Hero -->
+    <section class="pt-32 pb-16 gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="inline-block bg-secondary text-primary px-4 py-1 rounded-full text-sm font-bold mb-4">
+                        Nutritious & Natural
+                    </div>
+                    <h1 class="text-5xl font-bold mb-6">Banana Powder</h1>
+                    <p class="text-xl text-black mb-8">
+                        Pure Dehydrated Banana - Rich in Potassium & Natural Sweetness.
+                        Perfect for Baby Food, Smoothies, Baking & Health Products.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="/index.html#contact"
+                            class="bg-secondary text-primary font-bold px-8 py-3 rounded-full hover:shadow-lg transition">
+                            Request Quote
+                        </a>
+                        <a href="#specifications"
+                            class="bg-white/20 backdrop-blur text-white font-bold px-8 py-3 rounded-full hover:bg-white/30 transition">
+                            View Specifications
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="/Images/Banana Powder.png" alt="Banana Powder" class="rounded-3xl shadow-2xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl text-center">
+                    <i class="fas fa-baby text-5xl text-primary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Baby Food Grade</h3>
+                    <p class="text-gray-600">Safe for infants & toddlers</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl text-center">
+                    <i class="fas fa-apple-alt text-5xl text-primary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Natural Sweetness</h3>
+                    <p class="text-gray-600">No added sugar</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl text-center">
+                    <i class="fas fa-heart text-5xl text-primary mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Heart Healthy</h3>
+                    <p class="text-gray-600">Rich in potassium</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">About Banana Powder</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Our premium Banana Powder is made from carefully selected ripe bananas that are peeled,
+                        sliced, and dehydrated using advanced spray drying or freeze drying technology. This
+                        process preserves the natural nutrients, flavor, and color of fresh bananas.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Banana powder is an excellent source of potassium, dietary fiber, vitamins (especially
+                        B6 and C), and natural sugars. It's easily digestible, making it ideal for baby food,
+                        health supplements, and sports nutrition products. The powder dissolves easily in liquids
+                        and adds natural sweetness to various food applications.
+                    </p>
+
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8">Health Benefits</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">High in potassium for heart health</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Rich in dietary fiber for digestion</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Natural energy booster</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Supports bone health</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Easy to digest</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-600">Natural prebiotic properties</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Applications</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <h4 class="font-bold text-primary mb-2">Baby & Infant Food</h4>
+                            <p class="text-gray-600">Cereals, weaning foods, formula</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <h4 class="font-bold text-primary mb-2">Beverages</h4>
+                            <p class="text-gray-600">Smoothies, shakes, health drinks</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <h4 class="font-bold text-primary mb-2">Bakery & Confectionery</h4>
+                            <p class="text-gray-600">Cakes, cookies, muffins, candies</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md">
+                            <h4 class="font-bold text-primary mb-2">Nutrition Bars</h4>
+                            <p class="text-gray-600">Energy bars, protein bars</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications -->
+    <section id="specifications" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Product Specifications</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold text-primary mb-6">Technical Specifications</h3>
+                    <table class="w-full">
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Scientific Name</td>
+                            <td class="py-3 font-semibold">Musa Acuminata</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Form</td>
+                            <td class="py-3 font-semibold">Fine Powder</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Color</td>
+                            <td class="py-3 font-semibold">Creamy White to Light Yellow</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Aroma</td>
+                            <td class="py-3 font-semibold">Characteristic Banana</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Taste</td>
+                            <td class="py-3 font-semibold">Sweet, Mild Banana</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Mesh Size</td>
+                            <td class="py-3 font-semibold">60-100 Mesh</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Moisture</td>
+                            <td class="py-3 font-semibold">Max 5%</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 text-gray-600">Shelf Life</td>
+                            <td class="py-3 font-semibold">18-24 Months</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <h3 class="text-xl font-bold text-primary mb-6">Nutritional Information (per 100g)</h3>
+                    <table class="w-full">
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Calories</td>
+                            <td class="py-3 font-semibold">346 kcal</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Carbohydrates</td>
+                            <td class="py-3 font-semibold">88g</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Protein</td>
+                            <td class="py-3 font-semibold">3.9g</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Potassium</td>
+                            <td class="py-3 font-semibold">1,491mg</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Vitamin B6</td>
+                            <td class="py-3 font-semibold">0.57mg</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Vitamin C</td>
+                            <td class="py-3 font-semibold">9.1mg</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="py-3 text-gray-600">Dietary Fiber</td>
+                            <td class="py-3 font-semibold">7.4g</td>
+                        </tr>
+                        <tr>
+                            <td class="py-3 text-gray-600">Natural Sugars</td>
+                            <td class="py-3 font-semibold">High</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="mt-12 bg-primary/5 p-8 rounded-2xl">
+                <h3 class="text-xl font-bold text-primary mb-6">Packaging Options</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-6 rounded-xl text-center">
+                        <i class="fas fa-box text-4xl text-secondary mb-3"></i>
+                        <h4 class="font-bold mb-2">Retail Packs</h4>
+                        <p class="text-gray-600">100g, 250g, 500g, 1kg</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-center">
+                        <i class="fas fa-drum text-4xl text-secondary mb-3"></i>
+                        <h4 class="font-bold mb-2">Bulk Packs</h4>
+                        <p class="text-gray-600">10kg, 25kg HDPE bags</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-center">
+                        <i class="fas fa-industry text-4xl text-secondary mb-3"></i>
+                        <h4 class="font-bold mb-2">Industrial</h4>
+                        <p class="text-gray-600">Custom packaging available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-primary font-semibold text-lg mb-2">CONTACT US</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">Get In Touch</h3>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Have questions or ready to place an order? We'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h4 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h4>
+
+                    <form id="contactForm" class="space-y-6">
+
+                        <!-- Name -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name</label>
+                            <input type="text" id="contactName" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="Your Name">
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="contactEmail" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="your@email.com">
+                        </div>
+
+                        <!-- Phone -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Phone</label>
+                            <input type="tel" id="contactPhone"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="+91 9876543210">
+                        </div>
+
+                        <!-- Destination Port -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Destination Port</label>
+                            <input type="text" id="contactPort"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- City -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">City</label>
+                            <input type="text" id="contactCity"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- State -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">State / Region</label>
+                            <input type="text" id="contactState"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- Zip -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Zip / Postal Code</label>
+                            <input type="text" id="contactZip"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- Country -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Country</label>
+                            <input type="text" id="contactCountry"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Product</label>
+                            <select id="contactProduct" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Banana Powder</option>
+                                <option>Moringa Powder</option>
+                                <option>White Onion Powder</option>
+                                <option>Red Onion Powder</option>
+                                <option>BeetRoot Powder</option>
+                                <option>Multiple Products</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Quantity</label>
+                            <input type="text" id="contactQuantity"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="e.g., 100 kg">
+                        </div>
+
+                        <!-- Delivery Method -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Delivery Method</label>
+                            <select id="contactDelivery" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>By Air</option>
+                                <option>By Sea</option>
+                                <option>By Road</option>
+                            </select>
+                        </div>
+
+                        <!-- Payment Terms -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Payment Terms</label>
+                            <select id="contactPayment" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Advance</option>
+                                <option>DP</option>
+                                <option>DA</option>
+                                <option>LC</option>
+                            </select>
+                        </div>
+
+                        <!-- Nature of Business (Multi Select) -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Nature of Business</label>
+                            <select id="contactBusiness" multiple
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Wholesaler</option>
+                                <option>Retailer</option>
+                                <option>Importer</option>
+                                <option>Manufacturer</option>
+                            </select>
+                        </div>
+
+                        <!-- Message -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Message (Optional)</label>
+                            <textarea id="contactMessage" rows="4"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full gradient-bg text-white font-bold py-4 rounded-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h4 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h4>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Address</h5>
+                                    <p class="text-gray-600">123 Business Park, Export Zone<br>Mumbai, Maharashtra,
+                                        India - 400001</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-phone text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Phone</h5>
+                                    <p class="text-gray-600">+91 98765 43210<br>+91 98765 43211</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-envelope text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Email</h5>
+                                    <p class="text-gray-600">info@aksharglobaltrade.com<br>exports@aksharglobaltrade.com
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-clock text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Business Hours</h5>
+                                    <p class="text-gray-600">Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-bg p-8 rounded-2xl shadow-lg text-white">
+                        <h4 class="text-2xl font-bold mb-4">Quick Inquiry</h4>
+                        <p class="mb-6">For immediate assistance, call us directly or send a WhatsApp message.</p>
+                        <a href="tel:+919876543210"
+                            class="block bg-secondary text-primary font-bold py-3 px-6 rounded-lg text-center mb-3 hover:shadow-lg transition">
+                            <i class="fas fa-phone mr-2"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/919876543210"
+                            class="block bg-green-500 text-white font-bold py-3 px-6 rounded-lg text-center hover:shadow-lg transition">
+                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Products -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Our Other Products</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="moringa-powder.html"
+                    class="group bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition">
+                    <img src="/Images/Moringa Powder.png"
+                        class="w-full h-48 object-cover group-hover:scale-110 transition">
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Moringa Powder</h3>
+                    </div>
+                </a>
+                <a href="white-onion-powder.html"
+                    class="group bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition">
+                    <img src="/Images/White Onion Powder.png"
+                        class="w-full h-48 object-cover group-hover:scale-110 transition">
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">White Onion Powder</h3>
+                    </div>
+                </a>
+                <a href="red-onion-powder.html"
+                    class="group bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition">
+                    <img src="/Images/Red Onion Powder.png"
+                        class="w-full h-48 object-cover group-hover:scale-110 transition">
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">Red Onion Powder</h3>
+                    </div>
+                </a>
+                <a href="beetroot-powder.html"
+                    class="group bg-gray-50 rounded-xl overflow-hidden hover:shadow-xl transition">
+                    <img src="/Images/Beetroot Powder.png"
+                        class="w-full h-48 object-cover group-hover:scale-110 transition">
+                    <div class="p-4">
+                        <h3 class="font-bold text-gray-800">BeetRoot Powder</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2026 Akshar Global Trade. All rights reserved.</p>
+
+            <p class="mt-2 text-gray-400">
+                Connecting Commerce | Export Excellence
+            </p>
+
+            <p class="mt-2 text-white font-bold">
+                Built by
+                <a href="https://atlanciaworldwide.com" target="_blank" class="text-white underline">
+                    Atlancia Worldwide
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+        (function () {
+            emailjs.init("PKlVSHowQxmaO4Ah0");
+        })();
+    </script>
+
+    <script>
+        // Form submissions
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const businessSelect = document.getElementById('contactBusiness');
+            const selectedBusiness = Array.from(businessSelect.selectedOptions)
+                .map(option => option.value)
+                .join(", ");
+
+            emailjs.send("service_n627svl", "template_dx9pf0s", {
+                name: document.getElementById('contactName').value,
+                email: document.getElementById('contactEmail').value,
+                phone: document.getElementById('contactPhone').value,
+                product: document.getElementById('contactProduct').value,
+                quantity: document.getElementById('contactQuantity').value,
+                port: document.getElementById('contactPort').value,
+                city: document.getElementById('contactCity').value,
+                state: document.getElementById('contactState').value,
+                zip: document.getElementById('contactZip').value,
+                country: document.getElementById('contactCountry').value,
+                delivery: document.getElementById('contactDelivery').value,
+                payment: document.getElementById('contactPayment').value,
+                business: selectedBusiness,
+                message: document.getElementById('contactMessage').value
+            }).then(() => {
+                alert("Thank you! We will contact you soon.");
+                this.reset();
+            }, (error) => {
+                console.log(error);
+                alert("Failed to send email");
+            });
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            const scrollTop = document.getElementById('scrollTop');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-xl');
+            } else {
+                navbar.classList.remove('shadow-xl');
+            }
+
+            if (window.scrollY > 500) {
+                scrollTop.classList.remove('hidden');
+            } else {
+                scrollTop.classList.add('hidden');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
