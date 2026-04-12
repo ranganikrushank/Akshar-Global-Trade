@@ -68,7 +68,8 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
                 <div class="flex items-center">
-                    <img src="/Images/Akshar Global Trade Logo -1.png" alt="Akshar Global Trade" class="h-24 w-56 -ml-8">
+                    <img src="/Images/Akshar Global Trade Logo -1.png" alt="Akshar Global Trade"
+                        class="h-28 w-60 -ml-8 mt-2">
                 </div>
 
                 <!-- Desktop Menu -->
@@ -109,13 +110,24 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="relative min-h-screen flex items-center justify-center gradient-bg pt-20">
+    <section id="home" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="/Images/hero bg.png" alt="Export Background" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Gradient Overlay -->
+        <div class="absolute inset-0 gradient-bg opacity-80"></div>
+
+        <!-- Pattern Overlay -->
         <div class="absolute inset-0 opacity-10">
             <div class="absolute inset-0"
                 style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');">
             </div>
         </div>
 
+        <!-- Content -->
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mt-12">
             <div class="fade-in">
                 <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -138,6 +150,7 @@
                 </div>
             </div>
 
+            <!-- Features -->
             <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-white">
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
                     <i class="fas fa-globe-asia text-4xl text-secondary mb-3"></i>
@@ -168,16 +181,10 @@
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         Akshar Global Trade is a premier export company specializing in high-quality natural powder
                         products.
-                        With years of experience in international trade, we bridge the gap between Indian manufacturers
-                        and
-                        global buyers.
+                        Customer Satisfaction will build trust between us for long time business and excellence exhange.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
-                        Our commitment to quality, sustainability, and customer satisfaction has made us a trusted name
-                        in
-                        the export industry. We source the finest raw materials and ensure rigorous quality control at
-                        every
-                        stage of production.
+                        We are dedicated to providing our clients with the best products and services, ensuring that they receive the finest quality powders sourced from the best farms and processed with all care.
                     </p>
 
                     <div class="grid grid-cols-2 gap-6">
@@ -582,86 +589,60 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
+    <!-- Certificates -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Heading -->
             <div class="text-center mb-16">
-                <h2 class="text-primary font-semibold text-lg mb-2">TESTIMONIALS</h2>
-                <h3 class="text-4xl font-bold text-gray-800 mb-4">What Our Clients Say</h3>
+                <h2 class="text-primary font-semibold text-lg mb-2">CERTIFICATIONS</h2>
+                <h3 class="text-4xl font-bold text-gray-800 mb-4">Our Certifications</h3>
+                <p class="text-gray-600">We comply with international quality and export standards</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
-                    <div class="flex text-secondary mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-gray-600 mb-6 italic">
-                        "The quality of moringa powder is exceptional. Consistent quality and timely delivery.
-                        Highly recommend Akshar Global Trade!"
-                    </p>
-                    <div class="flex items-center">
-                        <div
-                            class="w-12 h-12 gradient-bg rounded-full flex items-center justify-center text-white font-bold mr-4">
-                            RP
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gray-800">Rajesh Patel</h4>
-                            <p class="text-sm text-gray-600">CEO, Health Foods Inc.</p>
-                        </div>
-                    </div>
+            <!-- Certificates Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Certificate 1 -->
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition">
+                    <img src="/Images/certificates/FSSAI.png" alt="FSSAI Certificate"
+                        class="w-full h-40 object-contain mb-4">
+                    <!-- <h4 class="font-bold text-gray-800 mb-2">FSSAI Certification</h4>
+                    <p class="text-sm text-gray-600 mb-4">Food Safety & Standards Authority of India</p>
+                    <a href="/content/assets/img/certificates/fssai.jpg" target="_blank"
+                        class="text-primary font-semibold hover:underline">View Certificate</a> -->
                 </div>
 
-                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
-                    <div class="flex text-secondary mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-gray-600 mb-6 italic">
-                        "Professional service and excellent product quality. The onion powders are of premium grade.
-                        Great business partner!"
-                    </p>
-                    <div class="flex items-center">
-                        <div
-                            class="w-12 h-12 gradient-bg rounded-full flex items-center justify-center text-white font-bold mr-4">
-                            SK
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gray-800">Sarah Khan</h4>
-                            <p class="text-sm text-gray-600">Director, Spice Traders LLC</p>
-                        </div>
-                    </div>
+                <!-- Certificate 2 -->
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition">
+                    <img src="/Images/certificates/msme.png" alt="ISO Certificate"
+                        class="w-full h-40 object-contain mb-4">
+                    <!-- <h4 class="font-bold text-gray-800 mb-2">MSME</h4> -->
+                    <!-- <p class="text-sm text-gray-600 mb-4">International Quality Standards</p> -->
+                    <!-- <a href="/content/assets/img/certificates/iso.jpg" target="_blank"
+                        class="text-primary font-semibold hover:underline">View Certificate</a> -->
                 </div>
 
-                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
-                    <div class="flex text-secondary mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-gray-600 mb-6 italic">
-                        "Outstanding service from start to finish. The banana and beetroot powders are top-notch.
-                        Will definitely order again!"
-                    </p>
-                    <div class="flex items-center">
-                        <div
-                            class="w-12 h-12 gradient-bg rounded-full flex items-center justify-center text-white font-bold mr-4">
-                            AM
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-gray-800">Ahmed Mohammed</h4>
-                            <p class="text-sm text-gray-600">Owner, Natural Products Co.</p>
-                        </div>
-                    </div>
+                <!-- Certificate 3 -->
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition">
+                    <img src="/Images/certificates/APEDA.png" alt="APEDA Certificate"
+                        class="w-full h-40 object-contain mb-4">
+                    <!-- <h4 class="font-bold text-gray-800 mb-2">APEDA Registration</h4> -->
+                    <!-- <p class="text-sm text-gray-600 mb-4">Agricultural Export Authority</p> -->
+                    <!-- <a href="/content/assets/img/certificates/apeda.jpg" target="_blank"
+                        class="text-primary font-semibold hover:underline">View Certificate</a> -->
                 </div>
+
+                <!-- Certificate 4 -->
+                <div class="bg-gray-50 p-6 rounded-2xl shadow-lg text-center hover:shadow-xl transition">
+                    <img src="/Images/certificates/Directorate-General-of-Foreign-Trade.jpg" alt="GST Certificate"
+                        class="w-full h-40 object-contain mb-4">
+                    <!-- <h4 class="font-bold text-gray-800 mb-2">DIRECTORATE GENERAL OF FOREIGN TRADE</h4> -->
+                    <!-- <p class="text-sm text-gray-600 mb-4">Government of India</p> -->
+                    <!-- <a href="/content/assets/img/certificates/gst.jpg" target="_blank"
+                        class="text-primary font-semibold hover:underline">View Certificate</a> -->
+                </div>
+
             </div>
         </div>
     </section>
@@ -750,7 +731,7 @@
                         </div>
 
                         <!-- Payment Terms -->
-                        <div>
+                        <!-- <div>
                             <label class="block text-gray-700 font-medium mb-2">Payment Terms</label>
                             <select id="contactPayment" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
                                 <option>Advance</option>
@@ -758,7 +739,7 @@
                                 <option>DA</option>
                                 <option>LC</option>
                             </select>
-                        </div>
+                        </div> -->
 
                         <!-- Nature of Business (Multi Select) -->
                         <div>
@@ -797,7 +778,8 @@
                                 </div>
                                 <div>
                                     <h5 class="font-bold text-gray-800 mb-1">Address</h5>
-                                    <p class="text-gray-600">1st floor, Gokul Medical Building, Devla Gate, Savarkundla, Amreli, Gujarat</p>
+                                    <p class="text-gray-600">1st floor, Gokul Medical Building, Devla Gate, Savarkundla,
+                                        Amreli, Gujarat</p>
                                 </div>
                             </div>
 
@@ -824,7 +806,7 @@
                                 </div>
                             </div>
 
-                            <div class="flex items-start">
+                            <!-- <div class="flex items-start">
                                 <div
                                     class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                                     <i class="fas fa-clock text-white text-xl"></i>
@@ -833,7 +815,7 @@
                                     <h5 class="font-bold text-gray-800 mb-1">Business Hours</h5>
                                     <p class="text-gray-600">Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -908,7 +890,7 @@
                     </ul>
                 </div>
 
-                <div>
+                <!-- <div>
                     <h4 class="text-lg font-bold mb-4">Newsletter</h4>
                     <p class="text-gray-400 mb-4">Subscribe to get latest updates and offers.</p>
                     <form class="flex">
@@ -918,7 +900,7 @@
                             <i class="fas fa-paper-plane"></i>
                         </button>
                     </form>
-                </div>
+                </div> -->
             </div>
 
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
