@@ -181,11 +181,11 @@
                     <p class="text-gray-600 mb-6 leading-relaxed">
                         Akshar Global Trade is a premier export company specializing in high-quality natural powder
                         products.
-                        Customer Satisfaction will build trust between us for long time business and excellence exhange.
+                        Customer Satisfaction will build trust between us for long term business and excellence exhange.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed">
                         We are dedicated to providing our clients with the best products and services, ensuring that
-                        they receive the finest quality powders sourced from the best farms and processed with all care.
+                        they receive the finest quality powders sourced from the best farms and processed with care and quality check passing through goverment (NABL) certified labs.
                     </p>
 
                     <div class="grid grid-cols-2 gap-6">
@@ -604,7 +604,6 @@
             <!-- Heading -->
             <div class="text-center mb-16">
                 <h2 class="text-primary font-semibold text-lg mb-2">CERTIFICATIONS</h2>
-                <h3 class="text-4xl font-bold text-gray-800 mb-4">Our Certifications</h3>
                 <p class="text-gray-600">We comply with international quality and export standards</p>
             </div>
 
@@ -660,7 +659,6 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-primary font-semibold text-lg mb-2">CONTACT US</h2>
-                <h3 class="text-4xl font-bold text-gray-800 mb-4">Get In Touch</h3>
                 <p class="text-gray-600 max-w-2xl mx-auto">
                     Have questions or ready to place an order? We'd love to hear from you.
                 </p>
@@ -837,8 +835,8 @@
                     </div>
 
                     <div class="bg-gradient-bg p-8 rounded-2xl shadow-lg text-white">
-                        <h4 class="text-2xl font-bold mb-4">Quick Inquiry</h4>
-                        <p class="mb-6">For immediate assistance, call us directly or send a WhatsApp message.</p>
+                        <!-- <h4 class="text-2xl font-bold mb-4">Quick Inquiry</h4>
+                        <p class="mb-6">For immediate assistance, call us directly or send a WhatsApp message.</p> -->
                         <a href="tel:+917573802294"
                             class="block bg-secondary text-primary font-bold py-3 px-6 rounded-lg text-center mb-3 hover:shadow-lg transition">
                             <i class="fas fa-phone mr-2"></i> Call Now
@@ -925,10 +923,9 @@
                         Atlancia Worldwide
                     </a>
                 </p>
-                <!-- <div class="flex space-x-6 mt-4 md:mt-0">
-                    <a href="#" class="text-gray-400 hover:text-secondary text-sm transition">Privacy Policy</a>
-                    <a href="#" class="text-gray-400 hover:text-secondary text-sm transition">Terms of Service</a>
-                </div> -->
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="/shipping-policy.html" class="text-gray-400 hover:text-secondary text-sm transition">Shipping Policy</a>
+                </div>
             </div>
         </div>
     </footer>
@@ -1100,7 +1097,7 @@
                 .map(option => option.value)
                 .join(", ");
 
-            emailjs.send("service_n627svl", "template_dx9pf0s", {
+            emailjs.send("service_bwn6m4e", "template_49nytxe", {
                 name: document.getElementById('contactName').value,
                 email: document.getElementById('contactEmail').value,
                 phone: document.getElementById('contactPhone').value,
@@ -1124,7 +1121,7 @@
         document.getElementById('inquiryForm').addEventListener('submit', function (e) {
             e.preventDefault();
 
-            emailjs.send("service_n627svl", "template_dx9pf0s", {
+            emailjs.send("service_bwn6m4e", "template_49nytxe", {
                 product: document.getElementById('productName').value,
                 name: document.getElementById('inquiryName').value,
                 email: document.getElementById('inquiryEmail').value,
@@ -1165,7 +1162,7 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
         (function () {
-            emailjs.init("PKlVSHowQxmaO4Ah0");
+            emailjs.init("iuiWBSUYcIaWwGAnl");
         })();
     </script>
 </body>

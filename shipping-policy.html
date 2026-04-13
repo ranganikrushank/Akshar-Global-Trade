@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshar Global Trade - Connecting Commerce | Export Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#d4af37',
+                        accent: '#3b82f6',
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+
+        .gold-gradient {
+            background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+        }
+
+        .hover-lift {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-lg z-50 transition-all duration-300 h-24" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <img src="/Images/Akshar Global Trade Logo -1.png" alt="Akshar Global Trade"
+                        class="h-28 w-60 -ml-8 mt-2">
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/index.html" class="text-gray-700 hover:text-primary font-medium transition">Home</a>
+                    <a href="/index.html#about" class="text-gray-700 hover:text-primary font-medium transition">About</a>
+                    <a href="/index.html#products" class="text-gray-700 hover:text-primary font-medium transition">Products</a>
+                    <a href="/index.html#services" class="text-gray-700 hover:text-primary font-medium transition">Services</a>
+                    <a href="/index.html#why-us" class="text-gray-700 hover:text-primary font-medium transition">Why Us</a>
+                    <a href="/index.html#contact"
+                        class="bg-primary text-white px-6 py-2 rounded-full font-medium hover:bg-blue-800 transition">Contact
+                        Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="/index.html"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Home</a>
+                <a href="/index.html#about"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">About</a>
+                <a href="/index.html#products"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Products</a>
+                <a href="/index.html#services"
+                    class="block px-3 py-2 text-gray-700 hover:bg-blue-50 hover:text-primary rounded">Services</a>
+                <a href="/index.html#contact" class="block px-3 py-2 text-primary font-semibold">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="py-28">
+        <div class="max-w-5xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
+
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Shipping & Logistics Policy</h1>
+            <p class="text-gray-500 mb-6">Last Updated: April 2026</p>
+
+            <p class="mb-6 text-gray-600">
+                This Shipping & Logistics Policy explains how Akshar Global Trade manages global shipments.
+                By placing an order, you agree to the terms outlined below.
+            </p>
+
+            <!-- Section -->
+            <div class="space-y-8 text-gray-700">
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">1. General Overview</h2>
+                    <ul class="list-disc ml-6 space-y-1">
+                        <li>Moringa Powder</li>
+                        <li>White Onion Powder</li>
+                        <li>Red Onion Powder</li>
+                        <li>Banana Powder</li>
+                        <li>Beetroot Powder</li>
+                    </ul>
+                    <p class="mt-2">
+                        Shipments are handled via global freight partners using Air, Sea, or Courier methods.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">2. Shipping Methods</h2>
+
+                    <p><strong>Air Freight:</strong> 25–500 kg | 5–12 days</p>
+                    <p><strong>Sea Freight:</strong> 500 kg – 5 MT+ | 18–45 days</p>
+                    <p><strong>Courier:</strong> 1–25 kg | 3–8 days (DHL, FedEx, UPS, Aramex)</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">3. Incoterms</h2>
+                    <ul class="list-disc ml-6">
+                        <li><strong>EXW</strong> – Buyer handles everything</li>
+                        <li><strong>FOB</strong> – We manage export, buyer manages freight</li>
+                        <li><strong>CIF</strong> – We manage freight + insurance</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">4. Export Documents</h2>
+                    <ul class="list-disc ml-6">
+                        <li>Commercial Invoice</li>
+                        <li>Packing List</li>
+                        <li>COA</li>
+                        <li>Export Declaration</li>
+                        <li>FSSAI / APEDA (if required)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">5. Processing Time</h2>
+                    <ul class="list-disc ml-6">
+                        <li>Order Processing: 3–7 days</li>
+                        <li>Packaging: 5–10 days</li>
+                        <li>Documentation: 1–3 days</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">6. Quality Control</h2>
+                    <p>
+                        Each batch is tested for moisture, purity, color, and microbial standards before dispatch.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">7. Packaging</h2>
+                    <ul class="list-disc ml-6">
+                        <li>1kg / 5kg / 25kg packaging</li>
+                        <li>Moisture-proof bags</li>
+                        <li>Fiber drums</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">8. Buyer Responsibilities</h2>
+                    <p>
+                        Buyers must handle import duties, customs clearance, permits, and local compliance.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">9. Delays</h2>
+                    <p>
+                        We are not responsible for delays due to customs, weather, port issues, or logistics disruptions.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">10. Tracking</h2>
+                    <p>
+                        AWB / BL and tracking links will be shared after shipment dispatch.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">11. Damage / Loss</h2>
+                    <p>
+                        CIF: Insurance claim supported<br>
+                        FOB/EXW: Buyer responsibility
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">12. Samples</h2>
+                    <p>
+                        Samples (1–5 kg) are prepaid, non-refundable, and shipped via courier.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">13. Address Accuracy</h2>
+                    <p>
+                        Buyer must provide correct shipping and consignee details.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">14. Policy Updates</h2>
+                    <p>
+                        This policy may be updated anytime. Latest version will always apply.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-xl mb-2">15. Contact</h2>
+                    <p>
+                        📧 info@aksharglobaltrade.com<br>
+                        📍 1st floor, Gokul Medical Building, Devla Gate, Savarkundla, Amreli, Gujarat
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-primary font-semibold text-lg mb-2">CONTACT US</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Have questions or ready to place an order? We'd love to hear from you.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h4 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h4>
+
+                    <form id="contactForm" class="space-y-6">
+
+                        <!-- Name -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Full Name</label>
+                            <input type="text" id="contactName" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="Your Name">
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Email</label>
+                            <input type="email" id="contactEmail" required
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="your@email.com">
+                        </div>
+
+                        <!-- Phone -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Phone</label>
+                            <input type="tel" id="contactPhone"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg" placeholder="+91 9876543210">
+                        </div>
+
+                        <!-- Destination Port -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Destination Port</label>
+                            <input type="text" id="contactPort"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- City -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">City</label>
+                            <input type="text" id="contactCity"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- State -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">State / Region</label>
+                            <input type="text" id="contactState"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- Zip -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Zip / Postal Code</label>
+                            <input type="text" id="contactZip"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- Country -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Country</label>
+                            <input type="text" id="contactCountry"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                        </div>
+
+                        <!-- Delivery Method -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Delivery Method</label>
+                            <select id="contactDelivery" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>By Air</option>
+                                <option>By Sea</option>
+                                <option>By Road</option>
+                            </select>
+                        </div>
+
+                        <!-- Payment Terms -->
+                        <!-- <div>
+                            <label class="block text-gray-700 font-medium mb-2">Payment Terms</label>
+                            <select id="contactPayment" class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Advance</option>
+                                <option>DP</option>
+                                <option>DA</option>
+                                <option>LC</option>
+                            </select>
+                        </div> -->
+
+                        <!-- Nature of Business (Multi Select) -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Nature of Business</label>
+                            <select id="contactBusiness" multiple
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg">
+                                <option>Wholesaler</option>
+                                <option>Retailer</option>
+                                <option>Importer</option>
+                                <option>Manufacturer</option>
+                            </select>
+                        </div>
+
+                        <!-- Message -->
+                        <div>
+                            <label class="block text-gray-700 font-medium mb-2">Message (Optional)</label>
+                            <textarea id="contactMessage" rows="4"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full gradient-bg text-white font-bold py-4 rounded-lg">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h4 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h4>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Address</h5>
+                                    <p class="text-gray-600">1st floor, Gokul Medical Building, Devla Gate, Savarkundla,
+                                        Amreli, Gujarat</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-phone text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Phone</h5>
+                                    <p class="text-gray-600">
+                                        <a href="https://wa.me/917573802294?text=Hello%20Akshar%20Global%20Trade,%0A%0AI%20am%20interested%20in%20your%20products.%20Please%20share%20more%20details.%0A%0ARegards,"
+                                            target="_blank" class="hover:text-green-600 underline">
+                                            +91 75738 02294
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-envelope text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Email</h5>
+                                    <p class="text-gray-600">
+                                        <a href="mailto:info@aksharglobaltrade.com?subject=Business Inquiry&body=Hello Akshar Global Trade,%0D%0A%0D%0AI am interested in your products. Please share more details.%0D%0A%0D%0ARegards,"
+                                            class="hover:text-green-600 underline">
+                                            info@aksharglobaltrade.com
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 gradient-bg rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-clock text-white text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-gray-800 mb-1">Business Hours</h5>
+                                    <p class="text-gray-600">Monday - Saturday: 9:00 AM - 6:00 PM<br>Sunday: Closed</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="bg-gradient-bg p-8 rounded-2xl shadow-lg text-white">
+                        <!-- <h4 class="text-2xl font-bold mb-4">Quick Inquiry</h4>
+                        <p class="mb-6">For immediate assistance, call us directly or send a WhatsApp message.</p> -->
+                        <a href="tel:+917573802294"
+                            class="block bg-secondary text-primary font-bold py-3 px-6 rounded-lg text-center mb-3 hover:shadow-lg transition">
+                            <i class="fas fa-phone mr-2"></i> Call Now
+                        </a>
+                        <a href="https://wa.me/917573802294"
+                            class="block bg-green-500 text-white font-bold py-3 px-6 rounded-lg text-center hover:shadow-lg transition">
+                            <i class="fab fa-whatsapp mr-2"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="/Images/Akshar Global Trade Logo -1.png" alt="Akshar Global Trade"
+                        class="h-24 w-auto mb-4 bg-white p-2 rounded">
+                    <p class="text-gray-400 mb-4">
+                        Connecting Commerce | Export Excellence. Your trusted partner for premium natural powder
+                        exports.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-secondary hover:text-primary transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#"
+                            class="w-10 h-10 bg-primary rounded-full flex items-center justify-center hover:bg-secondary hover:text-primary transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-secondary transition">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-secondary transition">About Us</a></li>
+                        <li><a href="#products" class="text-gray-400 hover:text-secondary transition">Products</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-secondary transition">Services</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-secondary transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Products</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/products/moringa-powder.html"
+                                class="text-gray-400 hover:text-secondary transition">Moringa Powder</a></li>
+                        <li><a href="/products/white-onion-powder.html"
+                                class="text-gray-400 hover:text-secondary transition">White Onion Powder</a>
+                        </li>
+                        <li><a href="/products/red-onion-powder.html"
+                                class="text-gray-400 hover:text-secondary transition">Red Onion Powder</a></li>
+                        <li><a href="/products/banana-powder.html"
+                                class="text-gray-400 hover:text-secondary transition">Banana Powder</a></li>
+                        <li><a href="/products/beetroot-powder.html"
+                                class="text-gray-400 hover:text-secondary transition">BeetRoot Powder</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div>
+                    <h4 class="text-lg font-bold mb-4">Newsletter</h4>
+                    <p class="text-gray-400 mb-4">Subscribe to get latest updates and offers.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your email"
+                            class="flex-1 px-4 py-2 rounded-l-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-primary">
+                        <button type="submit" class="bg-primary px-4 py-2 rounded-r-lg hover:bg-blue-700 transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div> -->
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">
+                    &copy; 2026 Akshar Global Trade. All rights reserved.
+                    | Built by
+                    <a href="https://atlanciaworldwide.com" target="_blank" class="text-white underline">
+                        Atlancia Worldwide
+                    </a>
+                </p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="/shipping-policy.html" class="text-gray-400 hover:text-secondary text-sm transition">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Inquiry Modal -->
+    <div id="inquiryModal"
+        class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 overflow-y-auto">
+
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 relative animate-fade-in max-h-[90vh] overflow-y-auto">
+
+            <!-- Close Button -->
+            <button onclick="closeInquiryModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600">
+                <i class="fas fa-times text-xl"></i>
+            </button>
+
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Product Inquiry</h3>
+            <p class="text-gray-600 mb-6">Fill out the form below and we'll get back to you soon.</p>
+
+            <form id="inquiryForm" class="space-y-4">
+
+                <!-- Hidden Product -->
+                <input type="hidden" id="productName">
+
+                <!-- Product Display -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Product</label>
+                    <input type="text" id="displayProductName" disabled
+                        class="w-full px-4 py-2 bg-gray-100 border border-gray-300 rounded-lg">
+                </div>
+
+                <!-- Name -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Your Name</label>
+                    <input type="text" id="inquiryName" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                        placeholder="Enter your name">
+                </div>
+
+                <!-- Email -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Email</label>
+                    <input type="email" id="inquiryEmail" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                        placeholder="Enter your email">
+                </div>
+
+                <!-- Phone -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Phone</label>
+                    <input type="tel" id="inquiryPhone"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                        placeholder="Enter phone number">
+                </div>
+
+                <!-- Quantity -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Quantity Required</label>
+                    <input type="text" id="inquiryQuantity"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                        placeholder="e.g., 100 kg">
+                </div>
+
+                <!-- Message -->
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Message</label>
+                    <textarea id="inquiryMessage" rows="3"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-primary"
+                        placeholder="Additional requirements..."></textarea>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit"
+                    class="w-full gradient-bg text-white font-bold py-3 rounded-lg hover:shadow-lg transition">
+                    Submit Inquiry
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" onclick="scrollToTop()"
+        class="hidden fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full shadow-lg hover:bg-blue-800 transition z-40">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            const scrollTop = document.getElementById('scrollTop');
+
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-xl');
+            } else {
+                navbar.classList.remove('shadow-xl');
+            }
+
+            if (window.scrollY > 500) {
+                scrollTop.classList.remove('hidden');
+            } else {
+                scrollTop.classList.add('hidden');
+            }
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Scroll to top function
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Inquiry Modal Functions
+        function openInquiryModal(productName) {
+            document.getElementById('productName').value = productName;
+            document.getElementById('displayProductName').value = productName;
+            document.getElementById('inquiryModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeInquiryModal() {
+            document.getElementById('inquiryModal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('inquiryModal').addEventListener('click', function (e) {
+            if (e.target === this) {
+                closeInquiryModal();
+            }
+        });
+
+        // Form submissions
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const businessSelect = document.getElementById('contactBusiness');
+            const selectedBusiness = Array.from(businessSelect.selectedOptions)
+                .map(option => option.value)
+                .join(", ");
+
+            emailjs.send("service_bwn6m4e", "template_49nytxe", {
+                name: document.getElementById('contactName').value,
+                email: document.getElementById('contactEmail').value,
+                phone: document.getElementById('contactPhone').value,
+                port: document.getElementById('contactPort').value,
+                city: document.getElementById('contactCity').value,
+                state: document.getElementById('contactState').value,
+                zip: document.getElementById('contactZip').value,
+                country: document.getElementById('contactCountry').value,
+                delivery: document.getElementById('contactDelivery').value,
+                business: selectedBusiness,
+                message: document.getElementById('contactMessage').value
+            }).then(() => {
+                alert("Thank you! We will contact you soon.");
+                this.reset();
+            }, (error) => {
+                console.log(error);
+                alert("Failed to send email");
+            });
+        });
+
+        document.getElementById('inquiryForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            emailjs.send("service_bwn6m4e", "template_49nytxe", {
+                product: document.getElementById('productName').value,
+                name: document.getElementById('inquiryName').value,
+                email: document.getElementById('inquiryEmail').value,
+                phone: document.getElementById('inquiryPhone').value,
+                quantity: document.getElementById('inquiryQuantity').value,
+                message: document.getElementById('inquiryMessage').value
+            }).then(() => {
+                alert("Inquiry sent successfully!");
+                closeInquiryModal();
+                this.reset();
+            }, (error) => {
+                console.log(error);
+                alert("Failed to send inquiry");
+            });
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements
+        document.querySelectorAll('.hover-lift').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("iuiWBSUYcIaWwGAnl");
+        })();
+    </script>
+</body>
+
+</html>
